@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bgColor: #fff;
+    --textColor: #000;
+}
+
+.theme-dark > * {
+    --bgColor: #000;
+    --textColor: #fff;
+}
